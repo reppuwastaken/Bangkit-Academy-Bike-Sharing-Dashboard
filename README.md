@@ -15,12 +15,12 @@ This project was developed as part of **Bangkit Academy**, focusing on analyzing
 - **Version Control:** Git & GitHub  
 
 ## 📂 Project Structure  
-├── data/ # Dataset (Bike Sharing Dataset)
-├── notebooks/ # Jupyter notebooks for EDA & model training
-├── dashboard/ # Dashboard app files (Streamlit/Plotly Dash)
-├── models/ # Trained ML models
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+- data/ # Dataset (Bike Sharing Dataset)
+- notebooks/ # Jupyter notebooks for EDA & model training
+- dashboard/ # Dashboard app files (Streamlit/Plotly Dash)
+- models/ # Trained ML models
+- requirements.txt # Project dependencies
+- README.md # Project documentation
 
 ## 🚀 How to Run  
 1. Clone this repository  
@@ -29,14 +29,13 @@ This project was developed as part of **Bangkit Academy**, focusing on analyzing
    cd Bangkit-Academy-Bike-Sharing-Dashboard
 
 2. Install dependencies
-
+   ```bash
    pip install -r requirements.txt
 
 3. Run the dashboard
-
+   ```bash
    streamlit run dashboard/app.py
 
-👤 Author
-
+## 👤 Author
 Developed by Revan Azriel Langa Aditya as part of Bangkit Academy Machine Learning Cohort 2024.
 
